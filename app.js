@@ -18,7 +18,7 @@ const imageBuilder = async () => {
     const coverPhoto = await loadImage("./images/cover-photo.png")
     context.drawImage(coverPhoto, 0, 0, width, 135)
 
-    // haami-dev-logo
+    // logo
     const logo = "puncoz.com"
     context.font = "bold 30px Roboto"
     context.fillStyle = "#C2F8FF"
